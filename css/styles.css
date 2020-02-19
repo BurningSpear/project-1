@@ -10,7 +10,7 @@
     flex-direction: column;
     }
 
-    .Flash-Cards {
+.Flash-Cards {
         width: 640px;
         height: 640px;
         margin: auto;
@@ -18,7 +18,7 @@
         flex-wrap: wrap;
         }
         
-        .reset-button {
+.reset-button {
         margin: auto;
         width: 640px;
         height: 50px;
@@ -28,7 +28,7 @@
         text-align: center;
         }
         
-        .row {
+.row {
         width: calc(25% - 10px);
         height: calc(33.333% - 10px);
         margin: 5px;
@@ -37,16 +37,24 @@
         text-align: center;
         }
 
-        .backOfCard {
+.backOfCard {
             display: inline-block;
             width: 100px;
             height: 100px;
             background-color: #eee;
             cursor: pointer;
             }
-            .backOfCard.done {
+.backOfCard.done {
             cursor: default;
             }
+        
+.backOfCard.done:hover {
+                cursor: default;
+                box-shadow: blue
+                }
+                 
+
+
             
         
     
