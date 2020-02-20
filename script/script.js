@@ -40,31 +40,31 @@ for (let color of colors) {
         .replace('color-hidden', '')
         .trim();
         target.className += ' done';
-    //
-    //Add Click Event
+//
+//Add Click Event
     document.getElementById("resetButton").addEventListener("click", function(){
-  //      console.log(cards);
+//      console.log(cards);
         document.querySelectorAll(".backOfCard").forEach (card => {
-   // console.log(card);
- //   card.className.replace('done', '').trim() +
+// console.log(card);
+//   card.className.replace('done', '').trim() +
  if (card.classList.contains ("done"))  {
     card.className = card.className.replace('done', '').trim() +
     ' color-hidden';
     clickedCard = null;
        preventClick = false;
-     //  console.log(card);
+//  console.log(card);
        combosFound = 0;
  console.log("true");
  }
 }); 
       console.log("got clikcked");
       });   
-    //end click Event
+//end click Event
     if (!clickedCard) {
-    // if we haven't clicked a card, keep track of the card, display it's color
+// if we haven't clicked a card, keep track of the card, display it's color
         clickedCard = target;
     } else if (clickedCard) {
-    // if we have already clicked a card, check if the new card matches the old card color
+// if we have already clicked a card, check if the new card matches the old card color
     if (
     clickedCard.getAttribute('data-color') !==
     target.getAttribute('data-color')
