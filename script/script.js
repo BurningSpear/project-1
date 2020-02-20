@@ -43,24 +43,22 @@ for (let color of colors) {
     //
     //Add Click Event
     document.getElementById("resetButton").addEventListener("click", function(){
-        console.log(cards);
+  //      console.log(cards);
         document.querySelectorAll(".backOfCard").forEach (card => {
-    console.log(card);
-    card.className.replace('done', '').trim() +
+   // console.log(card);
+ //   card.className.replace('done', '').trim() +
+ if (card.classList.contains ("done"))  {
+    card.className = card.className.replace('done', '').trim() +
     ' color-hidden';
     clickedCard = null;
        preventClick = false;
-       console.log(card);
+     //  console.log(card);
        combosFound = 0;
+ console.log("true");
+ }
 }); 
       console.log("got clikcked");
       });   
-    
-    //grid.addEventListener('click', function (event) {
-    //let clicked = event.target;
-    //if (clicked.nodeName === 'clickedCard') { return; }
-    //clicked.classList.add('resetButton');
-    //});
     //end click Event
     if (!clickedCard) {
     // if we haven't clicked a card, keep track of the card, display it's color
