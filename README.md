@@ -32,3 +32,8 @@ Add here the initial template with both css and js file links.
 •	Show a good commit history with frequent commits
 Additionally, your project should stick with KISS (Keep It Stupid Simple) and DRY (Don't Repeat Yourself) principles.
 
+WHAT IS A MEMORY GAME?
+
+A memory Game is a game of different sets of cards. Each pair of corresponding cards represent a corresponding attribute that must be matched for the cards to remain displayed, otherwise they remain hidden from the player.
+
+
