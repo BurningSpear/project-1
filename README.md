@@ -156,3 +156,44 @@ function onCardClicked(e) {
 MOVES LOGIC
 o	The number moves (clicks) a player has executed for the duration of one game are not yet trackable by a counter. This is work in progress step.
 
+RESET BUTTON
+o	The reset button should let the player reset the:
+game board, 
+timer, and 
+star rating.
+
+o	Within the <body></body> tags of the HTML template, a reset-button class with an id of resetButton was added.
+
+<button class="reset-button" id="resetButton">Restart Button</button>
+
+o	The functionality of this button is once the player has matched all the cards, the game can be reset for a new game.
+In the css file we will add:
+reset-button {
+        margin: auto;
+        width: 640px;
+        height: 50px;
+        }
+
+o	An eventListner was added to the button to rest the game to play mode.
+
+//Add Click Event
+    document.getElementById("resetButton").addEventListener("click", function(){
+//      console.log(cards);
+        document.querySelectorAll(".backOfCard").forEach (card => {
+// console.log(card);
+//   card.className.replace('done', '').trim() +
+ if (card.classList.contains ("done"))  {
+    card.className = card.className.replace('done', '').trim() +
+    ' color-hidden';
+    clickedCard = null;
+       preventClick = false;
+//  console.log(card);
+       combosFound = 0;
+ console.log("true");
+ }
+}); 
+      console.log("got clikcked");
+      }); 
+
+The trim() function is optional. It just facilitates that no lagging or trailing spaces exist.
+
