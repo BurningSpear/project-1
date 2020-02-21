@@ -100,4 +100,23 @@ Css:
 
 o	The following logic for the game will be added to the JavaScript file as follows:
 
+CARDS SHUFFLING 
+
+o	The game will be made of an array of cards defined by colors or images corresponding to each pair of cards.
+JSS-code
+
+const colors = [
+'pink',
+'yellow',
+'red',
+'cyan',
+'blue',
+'purple',
+'orange',
+'green'
+];
+
+
+o	The shuffling will be achieved through a parseInt(Math.random() method to let the cards randomly shuffled before begin of every game.
+
 
