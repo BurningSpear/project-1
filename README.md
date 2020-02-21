@@ -25,7 +25,8 @@ At the moment, the game is made of 16 cards in a 4 x 4 flex display but this num
 
 
 Technical Requirements
-Your game must:
+
+Th game must:
 •	Render in the browser
 Include separate HTML / CSS / JavaScript files
 Add here the initial template with both css and js file links.
@@ -34,6 +35,16 @@ Add here the initial template with both css and js file links.
 •	Use semantic markup for HTML and CSS (adhere to best practices)
 •	Show a good commit history with frequent commits
 Additionally, your project should stick with KISS (Keep It Stupid Simple) and DRY (Don't Repeat Yourself) principles.
+•	The game should have the following basic functionality:
+o	Cards are automatically shuffled at the beginning or every refresh of the game.
+o	The game should handle and recognize matching and/or non matching cards.
+•	In subsequent versions to come, the game should:
+o	Display current total number of moves executed by the user
+o	At the end of every successful game completion, the player will be awarded a star rating based on the total number of moves a player required to complete the game.
+o	When a game is started, a timer will also start to show the player the duration of the game.
+o	Since this is a fun game, a player will be congratulated at the successful completion of the game. 
+
+
 
 WHAT IS A MEMORY GAME?
 
