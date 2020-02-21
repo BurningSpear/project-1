@@ -17,9 +17,12 @@ Table of Contents
 Description
 
 This project is about programming a card memory game. The game is programmed using Hypertext Markup Language - html, Cascading Style Sheets – CSS and JavaScript.
-The game is played by a single player at a time. The player will start by flipping a card and when the next card flipped is not a match to the first flipped, both cards get automatically flipped back to hidden.
-The player will again flip a card until all matching cards are found and the game displays a message of congratulations to the user.
-At the moment, there is a total number of 16 Cards but this number might increase with upcoming versions and the so as to make the game more challenging.
+It is played by a single player at a time. 
+
+The player will start by clicking on a card to flip it open. When the next card flipped is not a match to the first flipped one, both cards get automatically flipped back to hidden if no their open flipped sides are not a match.
+The player will continue flipping cards open until all matching cards are found and the game displays a message of congratulations.
+At the moment, the game is made of 16 cards in a 4 x 4 flex display but this number might increase with upcoming versions so as to make the game more challenging.
+
 
 Technical Requirements
 Your game must:
