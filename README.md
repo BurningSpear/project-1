@@ -153,4 +153,6 @@ function onCardClicked(e) {
         return;
     }}
 
+MOVES LOGIC
+o	The number moves (clicks) a player has executed for the duration of one game are not yet trackable by a counter. This is work in progress step.
 
