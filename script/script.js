@@ -12,7 +12,7 @@ const colors = [
 'green'
 ];
 const cards = [...document.querySelectorAll('.backOfCard')];
-//
+//Shuffling of cards
 for (let color of colors) {
             const cardAIndex = parseInt(Math.random() * cards.length);
             const cardA = cards[cardAIndex];

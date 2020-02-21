@@ -1,6 +1,7 @@
 # project-1 MEMORY GAME
 Table of Contents
 
+•	Description
 •	Technical Requirements
 •	What is a memory game?
 •	Process Flow
