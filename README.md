@@ -208,3 +208,8 @@ Still work in progress
 TIMER
 
 Still work in progress
+
+CONCLUSION
+
+For me as a beginner with JavaScript I was really excited to get my hands dirty on the keyboard for my first JavaScript project. The memory game was a great challenge to practice what I had been learning for the last three weeks from my instructors and even learn more from other experienced frontend developers out there on the internet.
+I will keep coding and learning more by refactoring this code.
