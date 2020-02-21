@@ -197,3 +197,7 @@ o	An eventListner was added to the button to rest the game to play mode.
 
 The trim() function is optional. It just facilitates that no lagging or trailing spaces exist.
 
+CONGRATULATION MESSAGE
+
+Still work in progress
+
