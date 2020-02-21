@@ -201,3 +201,10 @@ CONGRATULATION MESSAGE
 
 Still work in progress
 
+STAR RATING
+
+Still work in progress
+
+TIMER
+
+Still work in progress
