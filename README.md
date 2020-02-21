@@ -119,4 +119,38 @@ const colors = [
 
 o	The shuffling will be achieved through a parseInt(Math.random() method to let the cards randomly shuffled before begin of every game.
 
+MATCHING CARDS 
+
+o	In JavaScript file, the match function will be written as shown below:
+
+
+o	Once a card is opened, it will remain displayed and if on the next card click no matching card of the matching pair is opened, the card will flip back to hide the front face.
+o	If a match is found, the card will remain displayed and the player can proceed to select the next card.
+o	The main function of our game will be the function onCardClicked(e). In this function we will add the following logic for the card game:
+	If a card has not been clicked, we will keep track of the card and display its color when clicked. This logic will be in function:
+
+if (!clickedCard) 
+
+o	We will use the event.target property together with the element.tagName property to find out which card element triggered the click event:
+
+clickedCard = target;
+
+o	Otherwise with the else statement, we will keep track of the color of the clicked card to match it to the next clicked card. 
+
+lickedCard.getAttribute('data-color') !== target.getAttribute('data-color')
+o	We will the declare a preventClick variable to be used in the function:
+ function onCardClicked(e)
+o	Let us set the value of this preventClick variable to false.
+let preventClick = false;
+o	Within the the clickedCard.getAttribute we will assign the Boolean true to the preventClick variable to prevent a matched card from being clicked on again.
+function onCardClicked(e) {
+            const target = e.currentTarget;
+            if (
+            preventClick ||
+            target === clickedCard ||
+            target.className.includes('done')
+    ) {
+        return;
+    }}
+
 
